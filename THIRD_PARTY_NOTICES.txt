@@ -1,0 +1,40 @@
+LOCALDEBRID - THIRD-PARTY NOTICES
+
+LocalDebrid bundles or calls the following programs and libraries. Each keeps its own license; nothing in
+LocalDebrid's terms changes that. Programs under the GPL are shipped as separate, unmodified executables that
+LocalDebrid starts as independent processes.
+
+--------------------------------------------------------------------------------------------------
+aria2 1.37.0 (aria2c.exe)                                         GNU GPL v2 (+ OpenSSL exception)
+  Download engine. Bundled unmodified. Full license: licenses\aria2-COPYING.txt, aria2-LICENSE.OpenSSL.txt
+  Source code: https://github.com/aria2/aria2/releases/tag/release-1.37.0
+  Written offer: on request the distributor will provide the corresponding source for the exact binary shipped.
+
+FFmpeg 7.1 "essentials" build by gyan.dev (ffmpeg.exe)             GNU GPL v3 (built with --enable-gpl --enable-version3)
+  Audio/video conversion and merging. Shipped unmodified next to the app, not linked into it.
+  License notice printed by the binary (ffmpeg -L): licenses\ffmpeg-LICENSE.txt ; full GPLv3 text: https://www.gnu.org/licenses/gpl-3.0.txt
+  Build info: https://www.gyan.dev/ffmpeg/builds/   Source code: https://ffmpeg.org/releases/ffmpeg-7.1.tar.xz
+  The build includes libx264, libx265, libmp3lame, libopus and others, each under its own license
+  (see `ffmpeg -version` / `ffmpeg -L`). Some codecs may be subject to patents in some countries.
+  FFmpeg is a trademark of Fabrice Bellard.
+
+yt-dlp (yt_dlp, bundled inside the app)                            The Unlicense (public domain)
+  https://github.com/yt-dlp/yt-dlp
+
+pywebview 6.x                                                      BSD 3-Clause
+  https://github.com/r0x0r/pywebview        Native window around Microsoft Edge WebView2.
+
+pythonnet / clr-loader                                             MIT
+  https://github.com/pythonnet/pythonnet
+
+cryptography                                                       Apache-2.0 OR BSD-3-Clause
+  https://github.com/pyca/cryptography      Used only to verify license-key signatures.
+
+Pillow (build time only: icon generation)                          HPND
+Python 3.14 runtime (CPython)                                      Python Software Foundation License
+PyInstaller bootloader (packaging)                                 GPL v2 with a special exception that
+  https://pyinstaller.org                                          permits use in non-GPL programs.
+Microsoft Edge WebView2 Runtime                                    Microsoft license (installed with Windows/Edge, not bundled)
+
+Real-Debrid is a separate commercial service; LocalDebrid is not affiliated with it. All product names are
+trademarks of their owners and are used only to identify the software they refer to.

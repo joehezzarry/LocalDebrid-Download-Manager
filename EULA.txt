@@ -1,0 +1,33 @@
+LOCALDEBRID - TERMS OF USE (plain-language template)
+Version 1
+
+By clicking "I agree" you accept these terms. If you don't agree, close the app.
+
+1. WHAT THIS IS
+LocalDebrid is a hobby download manager. It runs entirely on your PC and helps you fetch files, video, audio and torrents that you are entitled to download. It is provided free to the people it was shared with.
+
+2. YOUR RESPONSIBILITY FOR WHAT YOU DOWNLOAD
+a) Only download content that you own, that is in the public domain, that is openly licensed, or that the rights-holder has given you permission to download.
+b) Do not use the app to break or get around DRM, paywalls, encryption or other technical protection, or to infringe anyone's copyright. Downloading copyrighted material without permission may be illegal where you live.
+c) Websites and services have their own rules (for example video sites' terms of service, and Real-Debrid's terms). You are responsible for following them. If you use Real-Debrid, use your OWN account; sharing an account is against their rules.
+d) The author does not host, index, supply or recommend any content, and is not responsible for what you or anyone else downloads with the app.
+
+3. LICENSE KEYS
+Some extra features need a license key (or unlock during a short free trial). A key is personal: don't share, sell or post it. The author may revoke a key. The key check works offline and is not copy protection; please treat it as an honour system.
+
+4. NO WARRANTY
+The app is provided "AS IS", without warranty of any kind, express or implied, including fitness for a particular purpose and non-infringement. Downloads can fail, files can be incomplete or unsafe - scan what you download.
+
+5. LIMITATION OF LIABILITY
+To the maximum extent the law allows, the author is not liable for any loss or damage (including lost data, lost time, account bans or legal claims) arising from your use of the app.
+
+6. PRIVACY
+The app has no analytics and sends nothing to the author. It contacts only the sites and services you point it at (and Real-Debrid if you add a token). Settings, your Real-Debrid token and your license key are stored on your PC in %LOCALAPPDATA%\LocalDebrid. The optional clipboard monitor only looks for web/magnet links, keeps them in memory and is off unless you turn it on.
+
+7. THIRD-PARTY SOFTWARE
+The app includes open-source programs (aria2, FFmpeg, yt-dlp and others) under their own licenses. See THIRD_PARTY_NOTICES.txt. Those licenses apply to those parts and are not changed by these terms.
+
+8. CHANGES AND ENDING
+These terms may be updated in a new version; you may be asked to accept them again. You can stop using the app at any time by deleting it.
+
+(This is a plain-language template for a hobby project shared among friends. It is not legal advice; if you plan to distribute the app widely or charge for it, have a lawyer review it.)

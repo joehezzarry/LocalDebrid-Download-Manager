@@ -9,28 +9,23 @@ Works in Chrome, Edge, Brave, Opera and other Chromium browsers (not Firefox). I
 * **Fails safe:** if LocalDebrid isn't running or the pairing code is wrong, nothing is intercepted - the browser downloads normally.
 
 ## Install (friends)
-1. Start LocalDebrid, open **Settings -> Browser**.
-2. Browser extensions page (`chrome://extensions` or `edge://extensions`) -> turn on **Developer mode** -> **Load unpacked** -> pick the folder shown in Settings -> Browser (`%LOCALAPPDATA%\LocalDebrid\extension`).
-3. Click the LocalDebrid toolbar icon, paste the **pairing code** from the same Settings page. The dot turns green: connected.
+**From the Chrome Web Store** (once listed): open **Extension** in LocalDebrid -> **Add to Chrome** -> click the extension's icon -> **Connect automatically** -> click **Allow** in LocalDebrid.
 
-Chrome shows a "disable developer mode extensions" notice when it starts - that is normal for extensions loaded this way (see the store option below to get rid of it).
+**Manually (developer mode):**
+1. Start LocalDebrid and open **Extension** in the sidebar.
+2. Click **Copy chrome://extensions**, open Chrome, press Ctrl+L, Ctrl+V, Enter (Chrome does not let other programs open that page). Turn on **Developer mode** -> **Load unpacked** -> pick the folder shown (`%LOCALAPPDATA%\LocalDebrid\extension`).
+3. Click the LocalDebrid toolbar icon -> **Connect automatically**, then **Allow** in LocalDebrid. (A pairing code can be pasted instead.) The dot turns green: connected.
+
+Chrome shows a "disable developer mode extensions" notice when it starts - that is normal for extensions loaded this way; the store install doesn't have it.
 
 ## Updates
 The app keeps `%LOCALAPPDATA%\LocalDebrid\extension` equal to the extension bundled in the app. When LocalDebrid updates itself, the extension notices the newer version on its next check-in and reloads itself - nothing to do.
 
 ## Security model
 * The extension talks **only** to `127.0.0.1` ports 8765-8774 (the app), never to any other server.
-* Every request must carry the pairing code (random, stored on the PC, replaceable with "New code" in Settings). A website - even one that guesses the port - cannot use it: the app refuses web origins and checks the Host header.
+* Every request must carry the pairing code (random, stored on the PC). The code is handed to an extension only after you click **Allow** in the app (or you paste it yourself). A website - even one that guesses the port - cannot use it: the app refuses web origins and checks the Host header.
 * The extension token can only *send links*; it cannot read your downloads, settings, license or anything else.
-* `cookies` + `<all_urls>` permissions exist solely to forward your browser session to the downloader for sites you download from.
+* `<all_urls>` exists to see media requests and referrers on any site; the optional `cookies` permission is requested only when you turn on "Send cookies" and exists solely to forward your session to the downloader.
 
-## Optional: publish in a browser store (removes the developer-mode notice, installs in one click)
-Needs your own developer account, so I can't do it for you:
-* **Chrome Web Store** - $5 one-time fee, https://chrome.google.com/webstore/devconsole . Upload `dist_pro\LocalDebrid-Extension.zip`. Choose visibility **Unlisted** (only people with the link can install; not searchable). Review usually takes a few days. Store updates then replace the manual folder.
-* **Edge Add-ons** - free, https://partner.microsoft.com/dashboard/microsoftedge . Same zip.
-
-Suggested text for the listing:
-* **Summary:** Send downloads and videos from your browser to the LocalDebrid app on your PC.
-* **Single purpose:** Capture downloads/media links in the browser and send them to the LocalDebrid desktop app running on the same computer.
-* **Permission justifications:** `downloads` - detect and hand over downloads; `contextMenus` - the right-click actions; `storage` - remember the pairing code and settings; `cookies` + host access `<all_urls>` - forward the user's own session cookies to the local downloader so logged-in downloads work, and detect media requests on pages; `webRequest` - read (not modify) response headers to spot video/audio files.
-* **Privacy policy (short):** The extension does not collect, store remotely or transmit personal data. All data (pairing code, settings) stays in the browser; links and cookies are sent only to the LocalDebrid app on the same PC (127.0.0.1) and nowhere else. No analytics, no ads, no third parties.
+## Browser stores
+Chrome Web Store publishing is documented in [`CHROME_STORE.md`](CHROME_STORE.md) (all listing text and images are prepared in `docs/chrome-store/`). The privacy policy is [`PRIVACY.md`](../PRIVACY.md). Edge Add-ons (free, https://partner.microsoft.com/dashboard/microsoftedge) accepts the same zip.

@@ -55,7 +55,7 @@ Everything below the line is free forever. A few extras need a **license key** (
 |---|---|
 | Downloads, torrents, Music & Video (single items), browser extension, speed limiter, throughput graph, Real-Debrid, auto-update | Playlist downloads · download scheduler & **Later** queue · clipboard link monitor · batch patterns (`site/img[001-100].jpg`) and **Download all** · *when finished* exit / sleep / shut down |
 
-To get a key, open **Settings → License**, copy your **Machine ID** and send it to whoever shared the app with you; paste the key you get back and press **Activate**.
+To get a key, open **Settings → License**, copy your **Machine ID** and send it to the seller you bought your key from; paste the key you get back and press **Activate**.
 
 ## Optional: Real-Debrid
 
@@ -102,4 +102,4 @@ This page hosts the downloads and the small service files the app reads:
 | `docs/` | Browser-extension guide and screenshots |
 | `EULA.txt`, `THIRD_PARTY_NOTICES.txt`, `licenses/` | Terms and open-source notices |
 
-*LocalDebrid is a personal hobby project shared with friends. It is provided as-is, without warranty.*
+*LocalDebrid is provided as-is, without warranty — see the terms in `EULA.txt`. Not affiliated with Real-Debrid, YouTube or any service it can work with.*

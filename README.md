@@ -27,7 +27,7 @@ Windows 10 / 11 (64-bit) · no installer · about 60 MB download (the zip includ
 ## Install
 
 1. [Download the zip](https://github.com/joehezzarry/LocalDebrid-Download-Manager/releases/latest/download/LocalDebrid-share.zip) and **extract it to a normal folder** (Desktop, Documents, `C:\Tools` — not *Program Files*, so the app can update itself).
-2. Keep `ffmpeg.exe` **next to** `LocalDebrid.exe` (needed for MP3 conversion and HD video merging).
+2. Keep `ffmpeg.exe` **next to** `LocalDebrid.exe` (needed for MP3 conversion and joining picture + sound). If it's ever missing, the app can install it for you — see Troubleshooting.
 3. Double-click `LocalDebrid.exe`. Read and accept the terms of use on first start.
 
 Downloads go to `Downloads\LocalDebrid` (change it in **Settings**). Closing the window quits the app; unfinished downloads resume next time.
@@ -75,7 +75,8 @@ If you have your own [Real-Debrid](https://real-debrid.com) account, add your AP
 * **"Windows protected your PC"** → *More info → Run anyway* (unsigned app, see above).
 * **A firewall prompt for `aria2c.exe`** appears the first time you use a torrent. Choose *Allow* on private networks; you're asked once. Normal downloads never need it.
 * **A torrent is very slow** → a torrent with one seeder is slow in any client. Real-Debrid (above) fetches cached torrents at full speed.
-* **MP3 / merged video is greyed out or "ffmpeg not found"** → put `ffmpeg.exe` in the same folder as `LocalDebrid.exe`.
+* **No sound in a YouTube video / MP3 unavailable / "ffmpeg not found"** → on the **Music & Video** page (or on the video card after you paste a link) press **Install FFmpeg** — a one-click, verified download. Or put `ffmpeg.exe` next to `LocalDebrid.exe`.
+* **"Folder" / "Show in folder" opened the wrong place** → update to 1.2.2 or later (fixed for folder names that contain spaces).
 * **A video site stops working** → sites change often; update the app (Settings → About → Check for updates).
 * **Private or login-only videos** → put a Netscape-format `cookies.txt` in `%LOCALAPPDATA%\LocalDebrid`.
 * **The extension says "not paired" or "not running"** → start LocalDebrid first, then paste the pairing code from *Settings → Browser* again. *New code* in that page replaces a leaked code.

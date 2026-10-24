@@ -17,6 +17,8 @@ FFmpeg 7.1 "essentials" build by gyan.dev (ffmpeg.exe)             GNU GPL v3 (b
   The build includes libx264, libx265, libmp3lame, libopus and others, each under its own license
   (see `ffmpeg -version` / `ffmpeg -L`). Some codecs may be subject to patents in some countries.
   FFmpeg is a trademark of Fabrice Bellard.
+  If ffmpeg.exe is missing, LocalDebrid can download this same unmodified build (hash-verified) from the project's GitHub release
+  "ffmpeg-7.1" (https://github.com/joehezzarry/LocalDebrid-Download-Manager/releases/tag/ffmpeg-7.1); the source links above apply to it too.
 
 yt-dlp (yt_dlp, bundled inside the app)                            The Unlicense (public domain)
   https://github.com/yt-dlp/yt-dlp

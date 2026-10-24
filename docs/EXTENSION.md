@@ -8,7 +8,7 @@ Works in Chrome, Edge, Brave, Opera and other Chromium browsers (not Firefox). I
 * **Video detector:** the toolbar badge counts videos/audio/streams found on the page; the popup lists them with a Download / Grab button.
 * **Fails safe:** if LocalDebrid isn't running or the pairing code is wrong, nothing is intercepted - the browser downloads normally.
 
-## Install (friends)
+## Install
 **From the Chrome Web Store** (once listed): open **Extension** in LocalDebrid -> **Add to Chrome** -> click the extension's icon -> **Connect automatically** -> click **Allow** in LocalDebrid.
 
 **Manually (developer mode):**

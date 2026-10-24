@@ -2,7 +2,7 @@
 
 **A fast, friendly download manager for Windows** — paste a link, get the real download. Multi-connection downloads, torrents, music & video grabber, a browser extension that captures downloads like IDM, and automatic updates. Everything runs on your own PC.
 
-**[⬇ Download the latest version](https://github.com/joehezzarry/ld-licenses/releases/latest/download/LocalDebrid-share.zip)** · [All releases](https://github.com/joehezzarry/ld-licenses/releases) · [Install](#install) · [Browser extension](#browser-extension) · [Free vs Pro](#free-vs-pro) · [Troubleshooting](#troubleshooting) · [Privacy & legal](#privacy--legal)
+**[⬇ Download the latest version](https://github.com/joehezzarry/LocalDebrid-Download-Manager/releases/latest/download/LocalDebrid-share.zip)** · [All releases](https://github.com/joehezzarry/LocalDebrid-Download-Manager/releases) · [Install](#install) · [Browser extension](#browser-extension) · [Free vs Pro](#free-vs-pro) · [Troubleshooting](#troubleshooting) · [Privacy & legal](#privacy--legal)
 
 Windows 10 / 11 (64-bit) · no installer · about 60 MB download (the zip includes FFmpeg for music conversion)
 
@@ -26,7 +26,7 @@ Windows 10 / 11 (64-bit) · no installer · about 60 MB download (the zip includ
 
 ## Install
 
-1. [Download the zip](https://github.com/joehezzarry/ld-licenses/releases/latest/download/LocalDebrid-share.zip) and **extract it to a normal folder** (Desktop, Documents, `C:\Tools` — not *Program Files*, so the app can update itself).
+1. [Download the zip](https://github.com/joehezzarry/LocalDebrid-Download-Manager/releases/latest/download/LocalDebrid-share.zip) and **extract it to a normal folder** (Desktop, Documents, `C:\Tools` — not *Program Files*, so the app can update itself).
 2. Keep `ffmpeg.exe` **next to** `LocalDebrid.exe` (needed for MP3 conversion and HD video merging).
 3. Double-click `LocalDebrid.exe`. Read and accept the terms of use on first start.
 
@@ -96,7 +96,7 @@ This page hosts the downloads and the small service files the app reads:
 
 | File | Purpose |
 |---|---|
-| **[Releases](https://github.com/joehezzarry/ld-licenses/releases)** | The app, the full zip and the extension zip |
+| **[Releases](https://github.com/joehezzarry/LocalDebrid-Download-Manager/releases)** | The app, the full zip and the extension zip |
 | `update.json` | Signed notice of the newest version (read by the app's updater — don't edit) |
 | `revocations.json` | Signed list of cancelled license keys (read by the app — don't edit) |
 | `docs/` | Browser-extension guide and screenshots |

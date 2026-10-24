@@ -1,10 +1,10 @@
-LOCALDEBRID - TERMS OF USE (plain-language template)
-Version 1
+LOCALDEBRID - TERMS OF USE
+Version 2
 
 By clicking "I agree" you accept these terms. If you don't agree, close the app.
 
 1. WHAT THIS IS
-LocalDebrid is a hobby download manager. It runs entirely on your PC and helps you fetch files, video, audio and torrents that you are entitled to download. It is provided free to the people it was shared with.
+LocalDebrid is a download manager for Windows. It runs entirely on your PC and helps you fetch files, video, audio and torrents that you are entitled to download. The core app is free to use. Some extra ("Pro") features need a license key (see section 3). "The author" below means the publisher of LocalDebrid.
 
 2. YOUR RESPONSIBILITY FOR WHAT YOU DOWNLOAD
 a) Only download content that you own, that is in the public domain, that is openly licensed, or that the rights-holder has given you permission to download.
@@ -13,21 +13,21 @@ c) Websites and services have their own rules (for example video sites' terms of
 d) The author does not host, index, supply or recommend any content, and is not responsible for what you or anyone else downloads with the app.
 
 3. LICENSE KEYS
-Some extra features need a license key (or unlock during a short free trial). A key is personal: don't share, sell or post it. The author may revoke a key. The key check works offline and is not copy protection; please treat it as an honour system.
+Pro features are unlocked by a license key, or during a short free trial. A key is personal and is normally tied to one PC: don't share, resell or post it. The author may revoke a key, for example if it is shared or resold, or if the payment for it is reversed or refunded. A revoked key stops unlocking Pro features after the app next checks the revocation list online (or after its offline grace period). Keys are sold by the author or by shops the author uses; the terms and refund rules of the shop where you buy apply to your purchase, together with any rights you have under the law where you live. The key check works offline and is not copy protection.
 
 4. NO WARRANTY
 The app is provided "AS IS", without warranty of any kind, express or implied, including fitness for a particular purpose and non-infringement. Downloads can fail, files can be incomplete or unsafe - scan what you download.
 
 5. LIMITATION OF LIABILITY
-To the maximum extent the law allows, the author is not liable for any loss or damage (including lost data, lost time, account bans or legal claims) arising from your use of the app.
+To the maximum extent the law allows, the author is not liable for any loss or damage (including lost data, lost time, account bans or legal claims) arising from your use of the app. Nothing in these terms limits any right or remedy you have under law that cannot be excluded.
 
 6. PRIVACY
-The app has no analytics and sends nothing to the author. It contacts only the sites and services you point it at (and Real-Debrid if you add a token). Settings, your Real-Debrid token and your license key are stored on your PC in %LOCALAPPDATA%\LocalDebrid. The optional clipboard monitor only looks for web/magnet links, keeps them in memory and is off unless you turn it on.
+The app has no analytics and sends no personal data to the author. It contacts only: the sites and services you point it at; GitHub, to check for app updates and to fetch the signed list of revoked license keys (no personal data is sent); and Real-Debrid if you add your own token. Settings, your Real-Debrid token and your license key are stored on your PC in %LOCALAPPDATA%\LocalDebrid. The optional clipboard monitor only looks for web/magnet links, keeps them in memory and is off unless you turn it on. The optional browser extension talks only to the app on your own PC. See PRIVACY.md in the project repository for details.
 
 7. THIRD-PARTY SOFTWARE
-The app includes open-source programs (aria2, FFmpeg, yt-dlp and others) under their own licenses. See THIRD_PARTY_NOTICES.txt. Those licenses apply to those parts and are not changed by these terms.
+The app includes open-source programs (aria2, FFmpeg, yt-dlp and others) under their own licenses. See THIRD_PARTY_NOTICES.txt. Those licenses apply to those parts and are not changed by these terms. LocalDebrid is not affiliated with Real-Debrid, YouTube or any other service it can work with; their names belong to their owners.
 
 8. CHANGES AND ENDING
-These terms may be updated in a new version; you may be asked to accept them again. You can stop using the app at any time by deleting it.
+These terms may be updated in a new version; you may be asked to accept them again. You can stop using the app at any time by deleting it. The author may stop offering the app or new license keys at any time.
 
-(This is a plain-language template for a hobby project shared among friends. It is not legal advice; if you plan to distribute the app widely or charge for it, have a lawyer review it.)
+(This is a plain-language template, not legal advice. Because the app is now sold, have a lawyer review these terms for the countries where you sell it.)

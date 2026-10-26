@@ -9,12 +9,13 @@ Works in Chrome, Edge, Brave, Opera and other Chromium browsers (not Firefox). I
 * **Fails safe:** if LocalDebrid isn't running or the pairing code is wrong, nothing is intercepted - the browser downloads normally.
 
 ## Install
-**From the Chrome Web Store** (once listed): open **Extension** in LocalDebrid -> **Add to Chrome** -> click the extension's icon -> **Connect automatically** -> click **Allow** in LocalDebrid.
+**From the Chrome Web Store** (once listed): open **Extension** in LocalDebrid -> **Add to Chrome** -> click **Allow** in LocalDebrid when it asks "Allow your browser to connect?" (it asks by itself right after the install; missed it? click the extension's icon -> **Connect automatically**).
 
 **Manually (developer mode):**
 1. Start LocalDebrid and open **Extension** in the sidebar.
-2. Click **Copy chrome://extensions**, open Chrome, press Ctrl+L, Ctrl+V, Enter (Chrome does not let other programs open that page). Turn on **Developer mode** -> **Load unpacked** -> pick the folder shown (`%LOCALAPPDATA%\LocalDebrid\extension`).
-3. Click the LocalDebrid toolbar icon -> **Connect automatically**, then **Allow** in LocalDebrid. (A pairing code can be pasted instead.) The dot turns green: connected.
+2. Click **Copy chrome://extensions**, click **Open Chrome**, then in Chrome press Ctrl+L, Ctrl+V, Enter (Chrome does not let other programs open that page).
+3. Switch on **Developer mode** (toggle, top-right). Click **Load unpacked** (top-left). In the window that opens, paste the folder path (`%LOCALAPPDATA%\LocalDebrid\extension`, shown on the Extension page with a **Copy path** button) into the address bar, press Enter and click **Select Folder** - choose the folder called `extension` itself, the one containing `manifest.json`.
+4. LocalDebrid immediately asks **Allow your browser to connect?** - click **Allow**. The status on the Extension page turns green. (Missed it or it timed out? Click the LocalDebrid toolbar icon - puzzle-piece icon if hidden - then **Connect automatically**. A pairing code can be pasted instead.)
 
 Chrome shows a "disable developer mode extensions" notice when it starts - that is normal for extensions loaded this way; the store install doesn't have it.
 

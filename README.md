@@ -38,8 +38,8 @@ Downloads go to `Downloads\LocalDebrid` (change it in **Settings**). Closing the
 
 Works in **Chrome, Edge, Brave, Opera** (Chromium browsers). It captures downloads like IDM, adds a right-click **Download with LocalDebrid**, and shows a badge when it finds videos on a page.
 
-1. In LocalDebrid open **Extension** in the sidebar and follow the steps (the Chrome Web Store version is a one-click **Add to Chrome**; until then it is *Load unpacked* with developer mode).
-2. Click the extension's toolbar icon → **Connect automatically**, then click **Allow** in LocalDebrid. Done.
+1. In LocalDebrid open **Extension** in the sidebar and follow the steps (the Chrome Web Store version is a one-click **Add to Chrome**; until then: open `chrome://extensions`, switch on **Developer mode**, click **Load unpacked** and pick the folder shown).
+2. The moment the extension loads, LocalDebrid asks **Allow your browser to connect?** — click **Allow**. Done. (Missed it? Click the extension's toolbar icon → **Connect automatically**.)
 
 If LocalDebrid isn't running, nothing is intercepted — your browser downloads normally. Privacy: everything stays on your PC — see [PRIVACY.md](PRIVACY.md). More detail: [docs/EXTENSION.md](docs/EXTENSION.md).
 
@@ -78,7 +78,7 @@ If you have your own [Real-Debrid](https://real-debrid.com) account, add your AP
 * **"Folder" / "Show in folder" opened the wrong place** → update to 1.2.2 or later (fixed for folder names that contain spaces).
 * **A video site stops working** → sites change often; update the app (Settings → About → Check for updates).
 * **Private or login-only videos** → put a Netscape-format `cookies.txt` in `%LOCALAPPDATA%\LocalDebrid`.
-* **The extension says "not paired" or "not running"** → start LocalDebrid first, then paste the pairing code from *Settings → Browser* again. *New code* in that page replaces a leaked code.
+* **The extension says "not paired" or "not running"** → start LocalDebrid first, then click the extension's icon → **Connect automatically** and click **Allow** in LocalDebrid. (Or use the pairing code on the *Extension* page; *New code* there replaces a leaked code.)
 * **The update can't install** → the app must be in a folder Windows lets it write to (not *Program Files*).
 
 ## Privacy & legal

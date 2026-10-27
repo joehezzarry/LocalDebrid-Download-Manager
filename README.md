@@ -39,7 +39,7 @@ Downloads go to `Downloads\LocalDebrid` (change it in **Settings**). Closing the
 Works in **Chrome, Edge, Brave, Opera** (Chromium browsers). It captures downloads like IDM, adds a right-click **Download with LocalDebrid**, and shows a badge when it finds videos on a page.
 
 1. Add **[LocalDebrid Capture from the Chrome Web Store](https://chromewebstore.google.com/detail/localdebrid-capture/lahldebcicjghaookmeolhchdfpelafa)** (Chrome, Edge, Brave, Opera). It connects to the app by itself — no codes — and puts a **Download** button on video players (YouTube included): *Video* with sound or *Audio only (MP3)*, one click.
-2. Done. If LocalDebrid is closed, the extension starts it. (Only if the browser can't reach the app's helper does LocalDebrid ask once: **Allow your browser to connect?**)
+2. Done - no codes, nothing to allow. If LocalDebrid is closed, the extension starts it. On videos, the **Download** button at the top-right of the player lists the qualities with their sizes.
 
 **Opening the app:** press the Windows key and type *LocalDebrid* — it adds itself to the Start menu and Windows search on first run.
 
@@ -80,7 +80,7 @@ If you have your own [Real-Debrid](https://real-debrid.com) account, add your AP
 * **"Folder" / "Show in folder" opened the wrong place** → update to 1.2.2 or later (fixed for folder names that contain spaces).
 * **A video site stops working** → sites change often; update the app (Settings → About → Check for updates).
 * **Private or login-only videos** → put a Netscape-format `cookies.txt` in `%LOCALAPPDATA%\LocalDebrid`.
-* **The extension says "not paired" or "not running"** → start LocalDebrid first, then click the extension's icon → **Connect automatically** and click **Allow** in LocalDebrid. (Or use the pairing code on the *Extension* page; *New code* there replaces a leaked code.)
+* **The extension says "App closed"** → click **Start LocalDebrid** in its popup (or start it from the Start menu). It connects by itself. "Update app" means your LocalDebrid is older than 1.5.0 - open it and it updates itself.
 * **The update can't install** → the app must be in a folder Windows lets it write to (not *Program Files*).
 
 ## Privacy & legal

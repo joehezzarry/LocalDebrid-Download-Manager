@@ -38,7 +38,7 @@ Downloads go to `Downloads\LocalDebrid` (change it in **Settings**). Closing the
 
 Works in **Chrome, Edge, Brave, Opera** (Chromium browsers). It captures downloads like IDM, adds a right-click **Download with LocalDebrid**, and shows a badge when it finds videos on a page.
 
-1. In LocalDebrid open **Extension** in the sidebar and follow the steps (the Chrome Web Store version is a one-click **Add to Chrome**; until then: open `chrome://extensions`, switch on **Developer mode**, click **Load unpacked** and pick the folder shown).
+1. Install **[LocalDebrid Capture from the Chrome Web Store](https://chromewebstore.google.com/detail/localdebrid-capture/lahldebcicjghaookmeolhchdfpelafa)** (or in LocalDebrid: **Extension** → **Add to Chrome**). Other Chromium browsers: the Extension page also shows the manual *Load unpacked* steps.
 2. The moment the extension loads, LocalDebrid asks **Allow your browser to connect?** — click **Allow**. Done. (Missed it? Click the extension's toolbar icon → **Connect automatically**.)
 
 If LocalDebrid isn't running, nothing is intercepted — your browser downloads normally. Privacy: everything stays on your PC — see [PRIVACY.md](PRIVACY.md). More detail: [docs/EXTENSION.md](docs/EXTENSION.md).

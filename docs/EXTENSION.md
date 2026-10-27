@@ -9,7 +9,7 @@ Works in Chrome, Edge, Brave, Opera and other Chromium browsers (not Firefox). I
 * **Fails safe:** if LocalDebrid isn't running or the pairing code is wrong, nothing is intercepted - the browser downloads normally.
 
 ## Install
-**From the Chrome Web Store** (once listed): open **Extension** in LocalDebrid -> **Add to Chrome** -> click **Allow** in LocalDebrid when it asks "Allow your browser to connect?" (it asks by itself right after the install; missed it? click the extension's icon -> **Connect automatically**).
+**From the Chrome Web Store** ([LocalDebrid Capture](https://chromewebstore.google.com/detail/localdebrid-capture/lahldebcicjghaookmeolhchdfpelafa)): open **Extension** in LocalDebrid -> **Add to Chrome** -> click **Allow** in LocalDebrid when it asks "Allow your browser to connect?" (it asks by itself right after the install; missed it? click the extension's icon -> **Connect automatically**).
 
 **Manually (developer mode):**
 1. Start LocalDebrid and open **Extension** in the sidebar.

@@ -8,6 +8,12 @@ Works in Chrome, Edge, Brave, Opera and other Chromium browsers (not Firefox). I
 * **Video detector:** the toolbar badge counts videos/audio/streams found on the page; the popup lists them with a Download / Grab button.
 * **Fails safe:** if LocalDebrid isn't running or the pairing code is wrong, nothing is intercepted - the browser downloads normally.
 
+## How it connects
+LocalDebrid registers a small **browser helper** (native messaging) for Chrome, Edge, Brave, Chromium and Vivaldi when it starts. The browser lets only the LocalDebrid extension use it; the helper hands the extension the app's connection details and starts the app if it is closed. So there are no pairing codes and nothing to allow. (If the helper isn't available - e.g. an older app - the extension falls back to asking once in the app: *Allow your browser to connect?*)
+
+## Video button
+Hover a video (YouTube and most video sites) and click **Download**: *Video* (best / 1080p / 720p, always with sound) or *Audio only (MP3)*. LocalDebrid downloads it and notifies you when it's done.
+
 ## Install
 **From the Chrome Web Store** ([LocalDebrid Capture](https://chromewebstore.google.com/detail/localdebrid-capture/lahldebcicjghaookmeolhchdfpelafa)): open **Extension** in LocalDebrid -> **Add to Chrome** -> click **Allow** in LocalDebrid when it asks "Allow your browser to connect?" (it asks by itself right after the install; missed it? click the extension's icon -> **Connect automatically**).
 

@@ -56,7 +56,7 @@ LocalDebrid is **free forever** - no time limit, no nag screens, nothing in the 
 
 | Free | Pro |
 |---|---|
-| Downloads, torrents, Music & Video (single items), browser extension, speed limiter, throughput graph, Real-Debrid, auto-update | Playlist downloads · download scheduler & **Later** queue · clipboard link monitor · batch patterns (`site/img[001-100].jpg`) and **Download all** · *when finished* exit / sleep / shut down |
+| Downloads — one or hundreds at once (**Download all**, batch patterns like `site/img[001-100].jpg`, All links / images / videos from the extension), torrents, Music & Video (single items), browser extension, speed limiter, throughput graph, Real-Debrid, auto-update | Playlist downloads · download scheduler & **Later** queue · clipboard link monitor · *when finished* exit / sleep / shut down |
 
 To get a key, open **Settings → License**, copy your **Machine ID** and send it to the seller you bought your key from; paste the key you get back and press **Activate**.
 

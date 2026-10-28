@@ -9,7 +9,7 @@ Works in Chrome, Edge, Brave, Opera and other Chromium browsers (not Firefox). I
 * **Fails safe:** if LocalDebrid isn't running, nothing is intercepted - the browser downloads normally.
 
 ## How it connects
-LocalDebrid registers a small **browser helper** (native messaging) for Chrome, Edge, Brave, Chromium and Vivaldi when it starts. The browser lets only the LocalDebrid extension use it; the helper hands the extension the app's connection details and starts the app if it is closed. On top of that, LocalDebrid 1.5.0+ recognises the official extension (its store ID) by itself. So there are no pairing codes, nothing to allow and no notifications. (Only an extension with a different ID, or an app older than 1.5.0, still asks once: *Allow your browser to connect?*)
+LocalDebrid registers a small **browser helper** (native messaging) for Chrome, Edge, Brave, Chromium and Vivaldi when it starts. The browser lets only the LocalDebrid extension use it; the helper hands the extension the app's connection details and starts the app if it is closed. So there are no pairing codes to type, nothing to allow and no notifications. (Only a browser without the helper, or an extension with a different ID, still asks once: *Allow your browser to connect?*)
 
 ## Video button
 A **Download** button sits at the top-right of the video player (YouTube and most video sites). Click it: **Best quality** downloads at once; while you look, LocalDebrid lists the qualities the video offers (2160p, 1440p, 1080p, 720p... always MP4 with sound) with their sizes, plus **Audio only (MP3)**. LocalDebrid downloads it and notifies you when it's done.
@@ -30,7 +30,8 @@ The app keeps `%LOCALAPPDATA%\LocalDebrid\extension` equal to the extension bund
 
 ## Security model
 * The extension talks **only** to `127.0.0.1` ports 8765-8774 (the app), never to any other server.
-* Requests must come from the official extension (the browser sets its `chrome-extension://` origin; web pages can't fake it) or carry the pairing code (random, stored on the PC; handed to other extensions only after you click **Allow** in the app). A website - even one that guesses the port - cannot use it: the app refuses web origins and checks the Host header.
+* Every extension request carries the pairing code (random, stored on the PC). The official extension gets it from the browser helper, which only your Windows account can use; any other extension only after you click **Allow** in the app.
+* Since 1.6.0 the rest of the app's API answers only LocalDebrid's own window (a private key it gets at every start) and programs running as your Windows user - not other programs' faked requests from other accounts, and never websites. A website - even one that guesses the port - cannot use it: the app refuses web origins and checks the Host header.
 * The extension token can only *send links*; it cannot read your downloads, settings, license or anything else.
 * `<all_urls>` exists to see media requests and referrers on any site; the optional `cookies` permission is requested only when you turn on "Send cookies" and exists solely to forward your session to the downloader.
 

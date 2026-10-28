@@ -4,7 +4,7 @@
 
 **[⬇ Download LocalDebrid.exe](https://github.com/joehezzarry/LocalDebrid-Download-Manager/releases/latest/download/LocalDebrid.exe)** · [All releases](https://github.com/joehezzarry/LocalDebrid-Download-Manager/releases) · [Install](#install) · [Browser extension](#browser-extension) · [Free vs Pro](#free-vs-pro) · [Troubleshooting](#troubleshooting) · [Privacy & legal](#privacy--legal)
 
-Windows 10 / 11 (64-bit) · no installer · about 60 MB download (the zip includes FFmpeg for music conversion)
+Windows 10 / 11 (64-bit) · no installer · one 30 MB file (FFmpeg for music/video is fetched by itself the first time it's needed)
 
 ![Resolve a link](docs/screenshots/resolve.png)
 
@@ -17,6 +17,8 @@ Windows 10 / 11 (64-bit) · no installer · about 60 MB download (the zip includ
 | Any web page with files on it | Scanned for the file links, embedded players and hidden media URLs |
 | A magnet link or `.torrent` | Pick the files, download to your PC; each finished file also gets a local direct link |
 | A link in your browser | The **browser extension** hands it to LocalDebrid (with your cookies, so logged-in downloads work) |
+
+**You choose where it goes** (like IDM): every download first asks *Save to…* — keep the usual folder, pick another (**Browse…** or a recent folder), rename the file, or tick *Don't ask again*. Turn the question on/off any time in **Settings › Download folder**.
 
 ![Downloads with the live throughput graph](docs/screenshots/downloads.png)
 

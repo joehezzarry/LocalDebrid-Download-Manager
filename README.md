@@ -2,7 +2,7 @@
 
 **A fast, friendly download manager for Windows** — paste a link, get the real download. Multi-connection downloads, torrents, music & video grabber, a browser extension that captures downloads like IDM, and automatic updates. Everything runs on your own PC.
 
-**[⬇ Download the latest version](https://github.com/joehezzarry/LocalDebrid-Download-Manager/releases/latest/download/LocalDebrid-share.zip)** · [All releases](https://github.com/joehezzarry/LocalDebrid-Download-Manager/releases) · [Install](#install) · [Browser extension](#browser-extension) · [Free vs Pro](#free-vs-pro) · [Troubleshooting](#troubleshooting) · [Privacy & legal](#privacy--legal)
+**[⬇ Download LocalDebrid.exe](https://github.com/joehezzarry/LocalDebrid-Download-Manager/releases/latest/download/LocalDebrid.exe)** · [All releases](https://github.com/joehezzarry/LocalDebrid-Download-Manager/releases) · [Install](#install) · [Browser extension](#browser-extension) · [Free vs Pro](#free-vs-pro) · [Troubleshooting](#troubleshooting) · [Privacy & legal](#privacy--legal)
 
 Windows 10 / 11 (64-bit) · no installer · about 60 MB download (the zip includes FFmpeg for music conversion)
 
@@ -26,9 +26,10 @@ Windows 10 / 11 (64-bit) · no installer · about 60 MB download (the zip includ
 
 ## Install
 
-1. [Download the zip](https://github.com/joehezzarry/LocalDebrid-Download-Manager/releases/latest/download/LocalDebrid-share.zip) and **extract it to a normal folder** (Desktop, Documents, `C:\Tools` — not *Program Files*, so the app can update itself).
-2. Keep `ffmpeg.exe` **next to** `LocalDebrid.exe` (needed for MP3 conversion and joining picture + sound). If it's ever missing, the app can install it for you — see Troubleshooting.
-3. Double-click `LocalDebrid.exe`. Read and accept the terms of use on first start.
+1. [Download **LocalDebrid.exe**](https://github.com/joehezzarry/LocalDebrid-Download-Manager/releases/latest/download/LocalDebrid.exe) and put it wherever you like to keep programs (Documents, `C:\Tools`... — not *Program Files*, so it can update itself).
+2. Double-click it and accept the terms of use. That's all: it adds itself to the Start menu (press the Windows key and type *LocalDebrid*), sets up the browser helper, and fetches FFmpeg (for MP3s and videos with sound) by itself the first time it's needed.
+
+No internet on that PC, or you prefer everything in one go? [LocalDebrid-share.zip](https://github.com/joehezzarry/LocalDebrid-Download-Manager/releases/latest/download/LocalDebrid-share.zip) is the same app with FFmpeg already next to it, plus the licence texts.
 
 Downloads go to `Downloads\LocalDebrid` (change it in **Settings**). Closing the window quits the app; unfinished downloads resume next time.
 
@@ -51,7 +52,7 @@ LocalDebrid checks for new versions on its own, downloads them, verifies a digit
 
 ## Free vs Pro
 
-Everything below the line is free forever. A few extras need a **license key** (or unlock during a free **14-day trial** that starts the first time you run the app):
+LocalDebrid is **free forever** - no time limit, no nag screens, nothing in the free column ever locks. **Pro** is optional: a few extras for people who want them, unlocked by a **license key** (and free to try for **14 days** from the first start; after that only the extras lock):
 
 | Free | Pro |
 |---|---|
